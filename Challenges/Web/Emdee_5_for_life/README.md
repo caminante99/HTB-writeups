@@ -34,7 +34,7 @@ hash = hashlib.md5(str.encode()).hexdigest()
 ```    
 Don't forget to print the response to get your flag
 
-My python script is [here](files/md.py)
+My python script is [here](files/exploit.py)
 
 And we finally run it.      
 
