@@ -28,7 +28,7 @@ I found a **command injection vulnerability** in msfvenom payload generator when
 After looking up in different sites I found how to reproduce it in the Official Metasploit [repo](https://github.com/rapid7/metasploit-framework/pull/14331)
 
 Following the instructions there I was able to generate an apk file using msfconsole.
-
+![](images/poc.png)     
 Fire up a netcat listener for the reverse shell      
 ```bash
 $ nc -lvnp port
