@@ -41,7 +41,7 @@ Use this to get a python interactive shell
 python3 -c 'import pty;pty.spawn("/bin/bash")'
 ```
 
-### Privilege Escalation
+### Privilege Escalation                
 
 After lurking around we find another user **pwn** who has a cronjob running so we try to get a horizontal privilege escalation.
 
