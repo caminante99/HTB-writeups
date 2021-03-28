@@ -10,7 +10,7 @@ Release     : 06 Feb 2021
 IP          : 10.10.10.226
 ```
 ---
-### Enumeration
+## Enumeration
 
 Scanning the ip address we find an open **SSH** port and a web-page hosted on port 5000         
 ![](images/nmap.png)
@@ -21,7 +21,7 @@ I checked the sourcecode couldn't find much of anything there, checked for filte
 
 After lurking in the Official forum for sometime they were talking about metasploit a lot but I didn't understand why. Then I read the payloads section again, it must be something related to template file upload and msfvenom, so i started googling.
 
-### Foothold
+## Foothold
 
 I found a **command injection vulnerability** in msfvenom payload generator when using a crafted APK file as a Android payload template.
 
@@ -41,7 +41,7 @@ Use this to get a python interactive shell
 python3 -c 'import pty;pty.spawn("/bin/bash")'
 ```
 
-### Privilege Escalation                
+## Privilege Escalation                
 
 After lurking around we find another user **pwn** who has a cronjob running so we try to get a horizontal privilege escalation.
 
