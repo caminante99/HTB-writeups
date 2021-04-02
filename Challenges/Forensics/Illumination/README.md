@@ -2,9 +2,10 @@
 
 ### Challenge Author(s): [SherlockSec](https://www.hackthebox.eu/home/users/profile/50344)
 
-#### Description: A Junior Developer just switched to a new source control platform. Can you find the secret token? 
-#### Difficulty: Easy
-
+### Description: 
+    A Junior Developer just switched to a new source control platform. Can you find the secret token? 
+### Difficulty: `Easy`
+---
 # Challenge
 
 Unzippping the given zip we are given 2 files **bot.js** and **config.json**.       
