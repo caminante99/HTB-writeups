@@ -1,0 +1,39 @@
+WhatWeb report for http://10.13.37.10:80
+Status    : 200 OK
+Title     : Welcome to nginx on Debian!
+IP        : 10.13.37.10
+Country   : RESERVED, ZZ
+
+Summary   : HTTPServer[Ubuntu Linux][nginx/1.10.3 (Ubuntu)], nginx[1.10.3], HTML5
+
+Detected Plugins:
+[ HTML5 ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	OS           : Ubuntu Linux
+	String       : nginx/1.10.3 (Ubuntu) (from server string)
+
+[ nginx ]
+	Nginx (Engine-X) is a free, open-source, high-performance 
+	HTTP server and reverse proxy, as well as an IMAP/POP3 
+	proxy server. 
+
+	Version      : 1.10.3
+	Website     : http://nginx.net/
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Server: nginx/1.10.3 (Ubuntu)
+	Date: Mon, 05 Apr 2021 09:03:21 GMT
+	Content-Type: text/html
+	Last-Modified: Fri, 22 Dec 2017 09:18:31 GMT
+	Transfer-Encoding: chunked
+	Connection: close
+	ETag: W/"5a3ccde7-37b"
+	Content-Encoding: gzip
+	

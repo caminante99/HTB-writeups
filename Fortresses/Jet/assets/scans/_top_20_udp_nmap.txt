@@ -1,0 +1,49 @@
+# Nmap 7.91 scan initiated Mon Apr  5 14:14:15 2021 as: nmap -vv --reason -Pn -sU -A --top-ports=20 --version-all -oN /home/HTB/HTB-writeups/Fortresses/Jet/assets/results/10.13.37.10/scans/_top_20_udp_nmap.txt -oX /home/HTB/HTB-writeups/Fortresses/Jet/assets/results/10.13.37.10/scans/xml/_top_20_udp_nmap.xml 10.13.37.10
+Nmap scan report for 10.13.37.10
+Host is up, received user-set (0.27s latency).
+Scanned at 2021-04-05 14:14:22 IST for 29s
+
+PORT      STATE  SERVICE      REASON              VERSION
+53/udp    open   domain       udp-response ttl 63 ISC BIND 9.10.3-P4 (Ubuntu Linux)
+| dns-nsid: 
+|_  bind.version: 9.10.3-P4-Ubuntu
+67/udp    closed dhcps        port-unreach ttl 63
+68/udp    closed dhcpc        port-unreach ttl 63
+69/udp    closed tftp         port-unreach ttl 63
+123/udp   closed ntp          port-unreach ttl 63
+135/udp   closed msrpc        port-unreach ttl 63
+137/udp   closed netbios-ns   port-unreach ttl 63
+138/udp   closed netbios-dgm  port-unreach ttl 63
+139/udp   closed netbios-ssn  port-unreach ttl 63
+161/udp   closed snmp         port-unreach ttl 63
+162/udp   closed snmptrap     port-unreach ttl 63
+445/udp   closed microsoft-ds port-unreach ttl 63
+500/udp   closed isakmp       port-unreach ttl 63
+514/udp   closed syslog       port-unreach ttl 63
+520/udp   closed route        port-unreach ttl 63
+631/udp   closed ipp          port-unreach ttl 63
+1434/udp  closed ms-sql-m     port-unreach ttl 63
+1900/udp  closed upnp         port-unreach ttl 63
+4500/udp  closed nat-t-ike    port-unreach ttl 63
+49152/udp closed unknown      port-unreach ttl 63
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.91%E=4%D=4/5%OT=%CT=%CU=67%PV=Y%DS=2%DC=T%G=N%TM=606ACE03%P=x86_64-pc-linux-gnu)
+SEQ(CI=I%II=I)
+T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)
+T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)
+U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)
+IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 2 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 1434/udp)
+HOP RTT       ADDRESS
+1   515.41 ms 10.13.14.1
+2   515.87 ms 10.13.37.10
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Apr  5 14:14:51 2021 -- 1 IP address (1 host up) scanned in 36.80 seconds
