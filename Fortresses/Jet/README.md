@@ -43,7 +43,7 @@ We can't visit these sites in the normal way, for them to be recognized add them
 
 ```nano /etc/hosts```
 
-add this line 10.13.37.10 www.securewebinc.jet securewebinc.jet
+add this line `10.13.37.10 www.securewebinc.jet securewebinc.jet`
 
 and now visiting the first site, we find our 2<sup>nd</sup> flag in the footer.
 
