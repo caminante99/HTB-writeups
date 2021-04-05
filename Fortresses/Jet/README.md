@@ -51,7 +51,7 @@ and now visiting the first site, we find our 2<sup>nd</sup> flag in the footer.
 
 The second site is the same default site
 
-
+---
 ## **Going Deeper**
 
 Checking the whole source code of this site we find a secure.js file at the end of it.  
@@ -63,4 +63,5 @@ Going to the admin directory we find a login page.
 
 Checking the source code on this page to we find another flag.
 
+---
 ## **Bypassing Authentication**
