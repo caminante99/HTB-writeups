@@ -5,7 +5,8 @@
 
 ### Entry point: 
     10.13.37.10    
-### Flags: `11`
+### Flags   : `11`
+### Points : `100`
 ---
 ## **Connect**
 
@@ -31,7 +32,7 @@ After playing around I couldn't find much in this website, I went to the forum t
 
 I did a reverse DNS query on the server using
 ```bash
-digdig @10.13.37.10 -x 10.13.37.10 
+dig @10.13.37.10 -x 10.13.37.10 
 ```
 
 We find 2 URL's     
@@ -40,7 +41,7 @@ We find 2 URL's
 
 We can't visit these sites in the normal way, for them to be recognized add them to the /etc/hosts file.
 
-````nano /etc/hosts```
+```nano /etc/hosts```
 
 add this line 10.13.37.10 www.securewebinc.jet securewebinc.jet
 
