@@ -15,7 +15,8 @@ Let's start by scanning the ip using nmap
 nmap -A 10.10.10.229
 ```
 ![](images/scan.png)
-We find an open ssh port            
+
+Not much of interesting ports            
 When we go to the ip in the browser we are shown 2 links which redirect to spectra.htb, so we add them to the `/etc/hosts` file
 ```bash
 echo "10.10.10.229 spectra.htb" >> /etc/hosts
@@ -28,7 +29,7 @@ Clicking on the test link we get an error
 In the url removing the `index.php` we can see the testing directory
 ![](images/test_dir.png)
 
-The wp-config file is an important one for wordpress sites as they store db creds, so we open `wp-config.php` but we get an error so we next try `wp-config.php.save` we are faced with a blank page, checking the source we ind comments with mysql creds. 
+The wp-config file is an important one for wordpress sites as they store db creds, so we open `wp-config.php` but we get an error so we next try `wp-config.php.save` we are faced with a blank page, checking the source we find comments with mysql creds. 
 ![](images/config.png)          
 
 We use these creds to login from the link mentioned in the site footer.         
